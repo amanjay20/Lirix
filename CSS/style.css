@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Style+Script&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    cursor:context-menu;
+    font-family: "PT Sans", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+   
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+}
+li{
+    list-style: none;
+}
+/* .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+.scroll{
+    height: 100px;
+    width: 100px;
+    background-color:greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+.black{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+ }
+
+ .black h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    letter-spacing: 10px;
+    color: white;
+
+ }
+.green{
+    height: 130vh;
+    width: 100%;
+    background-color: greenyellow;
+    position: absolute;
+
+    z-index: 98;
+} 
+li{
+    list-style: none;
+}
+.nav{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+   
+}
+.lirix{
+    padding: 15px;
+    font-size: 30px;
+}
+.navright{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+.hero{
+    display: flex;
+    height: 85vh;
+    background-color: #fff;
+}
+.hero-left{
+    width: 88%;
+    /* background-color: lightskyblue; */
+    margin-left: 6%;
+}
+/* .hero-left h1{
+    font-size: 60px;
+    padding: 0px;
+    margin-top: 0%;
+} */
+.parent{
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+
+}
+.WE{
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+    padding: 5px;
+    /* background-color: yellow; */
+    position: relative;
+    overflow: hidden;
+}
+
+.WE h1{
+    position: absolute;
+    top: -17%;
+    font-size: 240px;
+    
+} 
+.ARE{
+    display: inline-block;
+    padding: 5px;
+    height: 200px;
+    width: 420px;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+}
+.ARE h1{
+    font-size:240px;
+    position: absolute;
+    top: -17%;
+}
+.LIRIX{
+    height: 200px;
+    width: 600px;
+    /* background-color: forestgreen; */
+    position: relative;
+    overflow: hidden;
+
+}
+.LIRIX h1{
+    font-size:240px;
+    position: absolute;
+    top: -23%;
+}
+.hero-right{
+    /* background-color: lightpink; */
+    width: 45%;
+    
+}
+.p1{
+    margin-top: 100%;
+    margin-left: 30%;
+    width: 50%;
+    font-size: 14px;
+}
+.hero-right span{
+    text-decoration: line-through greenyellow 3px;
+    
+}
+.p2{
+    margin-left: 30%;
+    width: 55%;
+    font-size:14px;
+}
+.slider{
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    /* margin: 10px 0; */
+    /* white-space: nowrap; */
+    white-space: nowrap;
+}
+.logos{
+    display: inline-block;
+    animation: move 8s linear infinite;
+}
+.slider img{
+    height: 50px;
+    margin: 0px;
+    /* background-color: blueviolet; */
+}
+@keyframes move {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.open{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.card{
+    height: 100%;
+    width: 2px;
+    opacity: 0;
+    background-color: black;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    background-image: url(https://media.getmood.io/warehouse/dynamic/433695.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+}
+.card h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    /* align-content: center;
+    text-align: center; */
+}
+.card h1 span{
+    color: greenyellow;
+    font-family: "Dancing Script";
+}
+.page-2{
+    height: 120%;
+    width: 100%;
+    background-color:white;
+    margin: 0;
+    /* z-index: -9; */
+    position: relative;
+    
+}
+.right-img{
+    height: 250px;
+    width: 220px;
+    background-color: black;
+    display: inline-block;
+    margin-top:70px;
+    margin-left: 70%;
+    
+}
+
+.right-img img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(358deg);
+}
+
+.page-2 h1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    
+}
+.page-2 h1 span i{
+    text-decoration:line-through greenyellow;
+    text-decoration-thickness: 4px;
+}
+.left-img{
+    height: 430px;
+    width: 350px;
+    background-color: black;
+    margin-top: 5%;
+}
+.left-img img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(358deg);
+}
+.page-3{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.page-3-left{
+    width: 50%;
+    background-color: black;
+    
+}
+.page-3-left h1{
+    color: white;
+    font-size: 80px;
+    padding: 70px 0px 0px 70px;
+    /* background-color: deepskyblue; */
+    
+}
+.page-3-left span {
+    /* background-color: crimson; */
+    font-size: 80px;
+    /* margin-top: -80px; */
+    padding:0px 70px;
+    color: greenyellow;
+    font-family: "Dancing Script";
+    text-decoration: underline 3px;
+    letter-spacing: 3px;
+}
+.page-3-para {
+    /* background-color: white; */
+    margin-left: 55%;
+    margin-top: 15%;
+}
+.page-3-para p{
+    color: white;
+    width: 83%;
+    font-size: 18px;
+}
+.page-3-right{
+    height: 100%;
+    width: 50%;
+}
+.page-3-right img{
+    height: 100%;
+    width: 100%;
+}
+.page-4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.upper-page-4{
+    height: 40%;
+    /* background-color: cadetblue; */
+}
+.upper-page-4 h1{
+    font-size: 150px;
+    text-align: center;
+}
+.upper-page-4 span{
+    height: 100px;
+    width: 200px;
+    background-color: crimson;
+    margin: 10px;
+}
+.upper-page-4 p{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.color-change{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    height: 300px;
+    width: 350px;
+    /* background-color: chocolate; */
+}
+.card1 li{
+
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card2{
+    height: 400px;
+    width: 550px;
+    background-color:black;
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(358deg);
+
+}
+.card3{
+    height: 300px;
+    width: 350px;
+    /* background-color: lightpink; */
+    z-index: 20;
+}
+.card3 h3{
+    padding: 20px;
+}
+.card3 p{
+    padding: 25px;
+    font-size: 20px;
+    width: 89%;
+}
+.team-page{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.left-team{
+    margin-top: 8%;
+    height: 80%;
+    width: 40%;
+    background-color: black;
+}  
+.left-team img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(358deg);
+}
+.right-team h1{
+    width: 100%;
+    padding: 0px;
+    margin: 30% 0px 0px 45%;
+    font-size: 90px;
+    font-weight:800;
+    
+}
+.right-team p{
+    width: 95%;
+    margin-left:48%;
+    font-weight: 500;
+}
+.corner{
+    height: 280px;
+    width: 300px;
+    /* border: 1px solid black; */
+    /* background-color: blue; */
+    margin-left: 95%;
+    margin-top: 25%;
+}
+.corner p{
+    width: 89%;
+    margin: 0;
+    padding: 10px;
+}
+.big-s{
+    height: 96%;
+    width: 100%;
+    background-color:#222321;
+    overflow: hidden;
+
+}
+.big-s h1{
+    text-align: center;
+    font-size: 100px;
+    scale: 130;
+    padding-top:120px;
+    color: white;
+    /* margin-left: 35%; */
+}
+.footer{
+    height: 40%;
+    width: 100%;
+    background-color: #222321;
+    /* background-color: white; */
+}
+.sliders{
+    height: 28px;
+    background-color: black;
+    overflow: hidden;
+    border: 2px solid white;
+    /* margin: 10px 0; */
+    /* white-space: nowrap; */
+    white-space: nowrap;
+}
+.logo{
+    display: inline-block;
+    /* align-items: center;
+    justify-content: space-between; */
+    margin-top: 5px;
+    animation: move 15s linear infinite;
+    
+}
+.item{
+    margin: 5px;
+    width: auto;
+    /* background-color: red; */
+    display: inline;
+    text-align: center;
+}
+.item p{
+    display: inline-block;
+    color: white;
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+@keyframes move {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.last{
+    padding: 70px 70px 20px 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.right{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.right li{
+    color: white;
+}
